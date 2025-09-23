@@ -126,10 +126,11 @@ output = Dict(
     "gammas_DK" => gammas_DK_best,
 )
 
-save_params(test, w_KC_best, gammas_DK_best, Theta_IC_best, times_best, directory, model, likelihood_best)
+println(JSON.json(output))
+
 
 
 
 println("Total Time Elapsed: ", time() - start_time_global)
 println("Best log-likelihood: ", likelihood_best)
-
+save_params(test, w_KC_best, gammas_DK_best, Theta_IC_best, times_best, directory, model, likelihood_best)
