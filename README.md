@@ -1,6 +1,16 @@
 # OMNI-HYPE-SMT
 Software for learning mesoscale structure in higher-order networks and hypergraphs corresponding to the model and inference algorithm presented in this [paper](https://arxiv.org/abs/2505.21748). The code has been tested on MacOS 15.0 and Linux. 
 
+To install locally, clone the repository:
+
+```bash
+git clone https://github.com/jhood3/Hypergraphs
+cd Hypergraphs
+pip install -e
+```
+After installation, you can verify it works by running the code blocks in `tutorial.ipynb`. The demo/tutorial should take ~40 seconds to run and the package should install immediately. 
+
+
 ## Dependencies
 
 - [Julia](https://julialang.org/) ≥ 1.9.1 
@@ -59,8 +69,6 @@ Pkg.add([
 **Installation (in Python environment)**
 
 ```bash
-# Upgrade pip and install required packages
-python -m pip install --upgrade pip
 python -m pip install numpy julia
 ```
 
