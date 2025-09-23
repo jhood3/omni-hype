@@ -1,4 +1,4 @@
-# OMNI-HYPE-SMT
+# Software for OMNI-HYPE-SMT
 Software for learning mesoscale structure in higher-order networks and hypergraphs corresponding to the model and inference algorithm presented in this [paper](https://arxiv.org/abs/2505.21748). The code has been tested on MacOS 15.0 and Linux. 
 
 To install locally, clone the repository:
