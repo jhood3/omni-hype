@@ -1,4 +1,4 @@
-# Software for OMNI-HYPE-SMT
+# Software for OMNI-HYPE-SMT [![DOI](https://zenodo.org/badge/916836025.svg)](https://doi.org/10.5281/zenodo.18599064)
 Software for learning mesoscale structure in higher-order networks and hypergraphs corresponding to the model and inference algorithm presented in the paper [Broad Spectrum Structure Discovery in Large-Scale Higher-Order Networks](https://arxiv.org/abs/2505.21748) by John Hood, Caterina De Bacco, and Aaron Schein. The code has been tested on MacOS 15.0 and Linux. 
 
 To install locally, clone the repository:
