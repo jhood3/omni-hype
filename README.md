@@ -4,8 +4,8 @@ Software for learning mesoscale structure in higher-order networks and hypergrap
 To install locally, clone the repository:
 
 ```bash
-git clone https://github.com/jhood3/Hypergraphs
-cd Hypergraphs
+git clone https://github.com/jhood3/omni-hype
+cd omni-hype
 pip install -e
 ```
 After installation, you can verify it works by running the code blocks in `tutorial.ipynb`. The demo/tutorial should take ~40 seconds to run and the package should install immediately. 
